@@ -9,7 +9,7 @@ Personal blog at https://blog.davidleen.me
 hugo server -D
 
 # New post
-hugo new posts/YYYY-MM-DD-title.md
+./new-post.sh my-post-title
 
 # Publish
 git add -A && git commit -m "message" && git push
