@@ -2,6 +2,7 @@ baseURL = "https://blog.davidleen.me/"
 languageCode = "en-us"
 title = "David Leen"
 theme = "PaperMod"
+googleAnalytics = "G-0MK9LJEW70"
 
 [params]
   defaultTheme = "auto"  # auto, light, or dark
