@@ -7,4 +7,6 @@ tags = ["meta"]
 
 Welcome to my blog. After years of thinking about it, I finally set one up.
 
+![Sample image](sample.jpg)
+
 I plan to write about software engineering, technology, and whatever else catches my interest. No promises on frequency.

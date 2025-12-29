@@ -8,7 +8,10 @@ fi
 
 DATE=$(date +%Y-%m-%d)
 SLUG="$1"
-FILE="content/posts/${DATE}-${SLUG}.md"
+DIR="content/posts/${DATE}-${SLUG}"
+FILE="${DIR}/index.md"
+
+mkdir -p "$DIR"
 
 cat > "$FILE" << EOF
 +++
@@ -20,4 +23,7 @@ tags = []
 
 EOF
 
-echo "Created: $FILE"
+echo "Created: $DIR/"
+echo "  - $FILE"
+echo ""
+echo "Add images to $DIR/ and reference them as ![alt](image.jpg)"
